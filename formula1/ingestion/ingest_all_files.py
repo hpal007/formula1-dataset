@@ -1,0 +1,10 @@
+# Databricks notebook source
+dbutils.notebook.run('create_processed_database')
+dbutils.notebook.run('ingest_circult_file')
+dbutils.notebook.run('ingest_driver_file')
+dbutils.notebook.run('ingest_laps_times_files')
+dbutils.notebook.run('ingest_pit_stop_file')
+dbutils.notebook.run('ingest_qualifying_files')
+dbutils.notebook.run('ingest_races_file')
+dbutils.notebook.run('ingest_results_file')
+dbutils.notebook.run('ingest_constructors_file')
